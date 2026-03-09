@@ -4,6 +4,16 @@ This project demonstrates a SQL data-cleaning pipeline for business contact data
 
 The goal was to transform raw scraped data into a structured dataset that can be used for analysis or outreach.
 
+## Data Pipeline Overview
+
+Raw scraped data  
+↓  
+SQL staging table  
+↓  
+Data cleaning and standardisation  
+↓  
+Validated contact dataset
+
 ## Project Structure
 
 sql/
@@ -33,3 +43,7 @@ Quality checks were performed to:
 - T-SQL
 - Data cleaning techniques
 - Data validation queries
+
+## Outcome
+
+The result is a cleaned and validated dataset of business contact information that can be used for further analysis, reporting, or outreach activities.
