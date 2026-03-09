@@ -6,6 +6,8 @@ This script:
 1. Creates the database
 2. Creates a staging table
 3. Imports the raw dataset using BULK INSERT
+
+Note: Update the BULK INSERT file path to match your local environment before running the script.
 */
 
 CREATE DATABASE [Outscraper_rawdata_csv]
